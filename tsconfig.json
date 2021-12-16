@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@fixtures/*": [
+        "test/fixtures/*"
+      ],
+    },
+    "alwaysStrict": true,
+    "charset": "utf8",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "lib": [
+      "es2018"
+    ],
+    "module": "esnext",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "stripInternal": true,
+    "target": "ES2018",
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./built"
+  },
+  "include": [
+    "**/*.ts",
+    "tests/index.test.js"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
